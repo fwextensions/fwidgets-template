@@ -1,0 +1,46 @@
+{
+  "name": "fwidgets-template",
+  "version": "0.0.1",
+  "description": "Create a simple Figma plugin UI with zero UI code.",
+  "keywords": [
+    "figma",
+    "plugin",
+    "ui"
+  ],
+  "author": "John Dunning",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwextensions/fwidgets-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fwextensions/fwidgets-template/issues"
+  },
+  "homepage": "https://github.com/fwextensions/fwidgets-template#readme",
+  "dependencies": {
+    "@create-figma-plugin/ui": "^2.6.1",
+    "@create-figma-plugin/utilities": "^2.6.1",
+    "fwidgets": "fwextensions/fwidgets#feat/create-source-library",
+    "preact": "^10"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^2.6.1",
+    "@create-figma-plugin/tsconfig": "^2.6.1",
+    "@figma/plugin-typings": "1.79.0",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "build:nomin": "build-figma-plugin --typecheck",
+    "dev": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "id": "fwidgetsPluginTemplate",
+    "name": "Fwidgets Plugin Template",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}
