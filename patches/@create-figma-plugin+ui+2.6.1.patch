@@ -1,0 +1,10 @@
+diff --git a/node_modules/@create-figma-plugin/ui/lib/utilities/render.js b/node_modules/@create-figma-plugin/ui/lib/utilities/render.js
+index f55a066..f381665 100644
+--- a/node_modules/@create-figma-plugin/ui/lib/utilities/render.js
++++ b/node_modules/@create-figma-plugin/ui/lib/utilities/render.js
+@@ -1,4 +1,4 @@
+-import '!../css/base.css';
++import '../css/base.css';
+ import { h, render as preactRender } from 'preact';
+ export function render(Plugin) {
+     return function (rootNode, props) {

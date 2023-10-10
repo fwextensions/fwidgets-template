@@ -27,12 +27,14 @@
     "@create-figma-plugin/build": "^2.6.1",
     "@create-figma-plugin/tsconfig": "^2.6.1",
     "@figma/plugin-typings": "1.79.0",
+    "patch-package": "^8.0.0",
     "typescript": "^5"
   },
   "scripts": {
     "build": "build-figma-plugin --typecheck --minify",
     "build:nomin": "build-figma-plugin --typecheck",
-    "dev": "build-figma-plugin --typecheck --watch"
+    "dev": "build-figma-plugin --typecheck --watch",
+    "postinstall": "patch-package"
   },
   "figma-plugin": {
     "editorType": [
