@@ -20,7 +20,7 @@
   "dependencies": {
     "@create-figma-plugin/ui": "^2.6.1",
     "@create-figma-plugin/utilities": "^2.6.1",
-    "fwidgets": "fwextensions/fwidgets#feat/create-source-library",
+    "fwidgets": "fwextensions/fwidgets#feat/create-tsup-library",
     "preact": "^10"
   },
   "devDependencies": {

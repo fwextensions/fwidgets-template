@@ -2,6 +2,7 @@
 *.log
 *.css.d.ts
 build/
+build */
 node_modules/
 manifest.json
 

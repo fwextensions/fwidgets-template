@@ -1,4 +1,4 @@
-import { fwidgets } from "fwidgets";
+import { fwidgets } from "fwidgets/main";
 
 // all of your plugin code should be in the callback passed to fwidgets().  your
 // callback will be passed input, output and ui modules that contain functions
