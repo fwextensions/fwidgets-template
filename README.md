@@ -11,10 +11,12 @@ Many useful Figma plugins run only in the main thread, where they can access the
 
 ## Install
 
-This repo includes all the scaffolding needed to use [`fwidgets`](https://github.com/fwextensions/fwidgets) in a Figma plugin.  It's easiest to start with a copy of it by running this command:
+This repo includes all the scaffolding needed to use [`fwidgets`](https://github.com/fwextensions/fwidgets) in a Figma plugin.  It's easiest to start with a copy of it by running these commands:
 
 ```shell
-npx --yes degit fwextensions/fwidgets-template my-plugin-name
+$ npx --yes degit fwextensions/fwidgets-template my-plugin-name
+$ cd my-plugin-name
+$ npm install
 ```
 
 Replace `my-plugin-name` with whatever you want to call the directory for your plugin.
@@ -22,4 +24,4 @@ Replace `my-plugin-name` with whatever you want to call the directory for your p
 
 ## Usage
 
-See the [`fwidgets` readme](https://github.com/fwextensions/fwidgets#usage) for details on how to use it to show UI controls within your plugin.
+See the [`fwidgets` readme](https://github.com/fwextensions/fwidgets#usage) for details on how to build the plugin and how to use the `fwidgets` API to easily show UI controls.
