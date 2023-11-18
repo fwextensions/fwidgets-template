@@ -1,6 +1,6 @@
 {
   "name": "fwidgets-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a simple Figma plugin UI with zero UI code.",
   "keywords": [
     "figma",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@create-figma-plugin/ui": "^3.0.2",
     "@create-figma-plugin/utilities": "^3.0.2",
-    "fwidgets": "latest",
+    "fwidgets": "^0.0.2",
     "preact": "^10.18.1"
   },
   "devDependencies": {

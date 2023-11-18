@@ -22,4 +22,4 @@ Replace `my-plugin-name` with whatever you want to call the directory for your p
 
 ## Usage
 
-See the [`fwidgets` readme](https://github.com/fwextensions/fwidgets#fwidgets) for details on how to use it to show UI controls within your plugin.
+See the [`fwidgets` readme](https://github.com/fwextensions/fwidgets#usage) for details on how to use it to show UI controls within your plugin.
